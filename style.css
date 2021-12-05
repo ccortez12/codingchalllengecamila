@@ -1,0 +1,85 @@
+/* Write some CSS below */
+body { 
+
+	font-family: Overpass;
+	font-size: 18px;
+	background-color: rgb(230,230,230);
+	color: rgb(30,30,30);
+
+ }
+
+ h1 {
+
+ 	font-family: chivo;
+ }
+h2 {
+
+	font-family: mukta;
+}
+
+a {
+	text-decoration: none;
+}
+
+.banner {
+
+	text-align: center;
+	background-image: url(images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #acbdaf;
+	padding: 100px 0px;
+}
+
+.btn-yellow {
+	background-color: #b48484;
+	padding: 10px 45px;
+	border-radius: 8px;
+	font-family: smooch;
+	color: whitesmoke;
+	margin-bottom: 50px;
+
+
+}
+
+.card-white img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 4px;
+
+}
+.card-white{
+	background-color:#acbdaf ;
+	width: 220px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px rdga(0,0,0,0.1);
+
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	margin-bottom: 30px;
+
+
+}
+
+.footer {
+	background-color: #b48484;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 25px;
+
+
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
